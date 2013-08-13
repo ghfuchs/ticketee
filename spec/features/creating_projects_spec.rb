@@ -6,11 +6,12 @@ feature 'Creating Projects' do
     visit '/'
 
     click_link 'New Project'
+
     fill_in 'Name', with: 'TextMate 2'
     fill_in 'Description', with: 'A text editor for OSX'
     click_button 'Create Project'
 
-    expect (page). to have content('Project has been created')
+    expect(page).to have_content('Project has been created.')
 
   end
 end
