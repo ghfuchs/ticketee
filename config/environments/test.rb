@@ -33,4 +33,6 @@ Ticketee::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  #config.generators do |g|; g.factory_girl dir: 'C:/Users/Owner/RubymineProjects/ticketee/spec/factories'; end;
 end

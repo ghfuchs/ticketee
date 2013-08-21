@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Use HAML as alternative to ERB
+gem 'haml-rails', '>= 0.3.4', :group => :development
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -40,6 +43,8 @@ end
 
 group :test do
   gem 'capybara', '~> 2.0.2'
+  gem 'factory_girl_rails', '4.2.1'
+  gem 'factory_girl', '4.2.0'
 end
 
 # Use ActiveModel has_secure_password

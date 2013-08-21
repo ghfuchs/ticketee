@@ -19,5 +19,9 @@ module Ticketee
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    # tried to change default dir for factories - no go
+    #config.generators do |g|
+    #  g.factory_girl dir: 'C:/Users/Owner/RubymineProjects/ticketee/spec/support/factories'
+    #end
   end
 end
